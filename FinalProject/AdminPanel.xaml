@@ -1,0 +1,15 @@
+﻿<Window x:Class="FinalProject.AdminPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="AdminPanel" Height="550" Width="800">
+    <Grid Background="#FFEE4918">
+        <DataGrid x:Name="AdminGrid" HorizontalAlignment="Left" Height="360" Margin="65,70,0,0" VerticalAlignment="Top" Width="700" Background="#FF1D5ADE"/>
+        <Label Content="Admin Panel For Data Centre Usage. We value your privacy!" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="580" Background="#FF11C119" Foreground="#FFCD1313" FontSize="18" FontFamily="Cooper Black" Height="45"/>
+        <Button Content="Proceed" HorizontalAlignment="Left" Margin="270,450,0,0" VerticalAlignment="Top" Width="190" Height="55" Background="#FF95289B" FontSize="16" Foreground="#FFECCFCF" Click="Proceed"/>
+
+    </Grid>
+</Window>

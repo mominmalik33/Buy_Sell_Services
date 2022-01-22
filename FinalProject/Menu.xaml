@@ -1,0 +1,64 @@
+﻿<Window x:Class="FinalProject.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="Menu" Height="522" Width="800">
+    <Grid Margin="0,0,0,1" Background="#FFD1C4C4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="395*"/>
+            <ColumnDefinition Width="397*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Height="113" Margin="105,82,115,0" VerticalAlignment="Top" Source="project.png"/>
+        <Label Content="Your Very Own Exchange Point" HorizontalAlignment="Center" Margin="256,28,256,0" VerticalAlignment="Top" Width="280" FontFamily="Algerian" FontSize="16" OpacityMask="#FFD40909" Height="34" Foreground="#FF8F1384" Grid.ColumnSpan="2">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF8EEC1D" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="298,207,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="123,205,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="298,207,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="123,205,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="298,207,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="123,205,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button x:Name="___No_Name_" Content="Home" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Height="68" Width="156" Background="#FFDE2424" FontSize="18" Click="Home"/>
+        <Button Content="Services" HorizontalAlignment="Left" Margin="298,207,0,0" VerticalAlignment="Top" Height="68" Width="156" Background="#FF31D440" FontSize="18" Click="Services" Grid.ColumnSpan="2"/>
+        <Button Content="Portal" HorizontalAlignment="Left" Margin="123,205,0,0" VerticalAlignment="Top" Height="68" Width="156" Background="#FFB617A7" FontSize="18" Click="Portal" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="301,309,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="126,307,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="301,309,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="126,307,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Profile Settings" HorizontalAlignment="Left" Margin="301,309,0,0" VerticalAlignment="Top" Height="68" Width="156" FontSize="18" Background="#FF676EB4" Click="Profile_Settings" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="126,307,0,0" VerticalAlignment="Top" Height="68" Width="156" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156"/>
+        <Button Content="Publish Item" HorizontalAlignment="Left" Margin="94,309,0,0" VerticalAlignment="Top" Height="68" Width="156" FontSize="18" Background="#FFC4D420" Click="Publish_Item"/>
+        <Button Content="Admin Pannel" HorizontalAlignment="Left" Margin="126,307,0,0" VerticalAlignment="Top" Height="68" Width="156" FontSize="18" Background="#FFB1B5D8" Click="Admin_Panel" Grid.Column="1"/>
+        <Button Content="About Us" HorizontalAlignment="Left" Margin="160,406,0,0" VerticalAlignment="Top" Height="68" Width="156" Background="#FFF13315" FontSize="18" Click="About_Us"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="3,407,0,0" VerticalAlignment="Top" Height="68" Width="156" FontSize="18" Foreground="Black" Background="#FF0D5457" Click="Exit" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="295,80,0,0" VerticalAlignment="Top" Width="145" Source="/exchange_system.jpg" Grid.ColumnSpan="2"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="135,115,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="105" Margin="70,80,0,0" VerticalAlignment="Top" Width="130" Source="vehicles.jpg"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="110" Margin="240,80,0,0" VerticalAlignment="Top" Width="105" Source="clothes.jpg"/>
+
+    </Grid>
+
+</Window>

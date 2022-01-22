@@ -1,0 +1,26 @@
+﻿<Window x:Class="FinalProject.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800">
+    <Grid Background="#FFF7F6F6">
+        <Menu Margin="0,0,0,344" Background="#FFC11AE6" FontFamily="Bell MT" FontSize="22" FontStyle="Italic" FontWeight="Bold" FontStretch="Medium">
+            <MenuItem Header="Main Menu" Click="Main_Menu" FontWeight="Bold" FontStyle="Italic" FontSize="18" Height="65" Width="110" FontFamily="Cambria"/>
+            <MenuItem Header="Services" Click="Services" FontWeight="Bold" FontStyle="Italic" FontSize="18" Height="65" Width="80" FontFamily="Cambria"/>
+            <MenuItem Header="Portal" Click="Portal" FontWeight="Bold" FontStyle="Italic" FontSize="18" Height="65" Width="80" FontFamily="Cambria"/>
+            <MenuItem Header="My Profile" Click="Profile" FontWeight="Bold" FontStyle="Italic" FontSize="18" Height="65" Width="100" FontFamily="Cambria"/>
+            <MenuItem Header="Logout" Click="Logout" FontWeight="Bold" FontStyle="Italic" FontSize="18" Height="65" Width="100" FontFamily="Cambria"/>
+        </Menu>
+        <Label Content="House Accessories &amp; Clothes Sell/Exchange System" HorizontalAlignment="Left" Margin="80,88,0,0" VerticalAlignment="Top" Width="620" Height="57" FontWeight="Bold" FontStyle="Italic" FontSize="24" Background="#FF25C3C3" FontFamily="Comic Sans MS"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="110,180,0,0" VerticalAlignment="Top" Width="130" Source="vehicles.jpg"/>
+        <Image HorizontalAlignment="Left" Height="95" Margin="290,185,0,0" VerticalAlignment="Top" Width="145" Source="devices.jpg" RenderTransformOrigin="0.15,0.5"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="475,180,0,0" VerticalAlignment="Top" Width="130" Source="furniture.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="110,300,0,0" VerticalAlignment="Top" Width="120" Source="toys.png"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="285,305,0,0" VerticalAlignment="Top" Width="155" Source="grocery.jpg" RenderTransformOrigin="0.48,0.688"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="485,290,0,0" VerticalAlignment="Top" Width="135" Source="clothes.jpg"/>
+
+    </Grid>
+</Window>
